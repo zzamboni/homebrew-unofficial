@@ -5,5 +5,5 @@ class Stash < Cask
   url 'https://github.com/alehouse/Stash/raw/master/downloads/Stash_1.0.tgz'
   homepage 'https://github.com/beelsebob/Stash'
 
-  link 'Stash.app'
+  app 'Stash.app'
 end

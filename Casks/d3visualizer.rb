@@ -5,5 +5,5 @@ class D3visualizer < Cask
   url 'https://github.com/alehouse/D3Visualizer/raw/master/downloads/D3Visualizer_1.0.tgz'
   homepage 'https://github.com/swisspol/D3Visualizer'
 
-  link 'D3Visualizer.app'
+  app 'D3Visualizer.app'
 end

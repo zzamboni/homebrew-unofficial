@@ -5,5 +5,5 @@ class Easytag < Cask
   url 'https://github.com/rfw/easytag-mac/releases/download/v2.1.8-mac-alpha-1/easytag-v2.1.8-mac-alpha-1.dmg'
   homepage 'http://rfw.name/easytag-mac/'
 
-  link 'EasyTAG.app'
+  app 'EasyTAG.app'
 end

@@ -5,5 +5,5 @@ class Cocoaslideshow < Cask
   url 'https://github.com/alehouse/CocoaSlideShow/raw/master/downloads/CocoaSlideShow_0.6.tgz'
   homepage 'https://github.com/nst/CocoaSlideShow'
 
-  link 'CocoaSlideShow.app'
+  app 'CocoaSlideShow.app'
 end

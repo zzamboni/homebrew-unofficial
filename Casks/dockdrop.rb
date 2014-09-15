@@ -5,5 +5,5 @@ class Dockdrop < Cask
   url "https://marudor.de/cask/dockdrop/Dockdrop-#{version}.dmg"
   homepage 'https://web.archive.org/web/20121204080344/http://dockdropx.com/'
 
-  link 'Dockdrop.app'
+  app 'Dockdrop.app'
 end

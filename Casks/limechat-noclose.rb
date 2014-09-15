@@ -5,5 +5,5 @@ class LimechatNoclose < Cask
   url 'https://github.com/rolandwalker/limechat/releases/download/2.42-hide-window-on-close/LimeChat.app.zip'
   homepage 'https://github.com/rolandwalker/limechat'
 
-  link 'LimeChat.app'
+  app 'LimeChat.app'
 end
