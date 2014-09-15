@@ -5,5 +5,5 @@ class Wiiscale < Cask
   url 'https://github.com/alehouse/wiiscale/raw/master/downloads/WiiScale_1.0.tgz'
   homepage 'https://github.com/damariei/wiiscale'
 
-  link 'WiiScale.app'
+  app 'WiiScale.app'
 end
