@@ -5,5 +5,5 @@ class Bughub < Cask
   url 'https://github.com/alehouse/BugHub/raw/master/downloads/BugHub_1.0.1.tgz'
   homepage 'https://github.com/Me1000/BugHub'
 
-  link 'BugHub.app'
+  app 'BugHub.app'
 end
