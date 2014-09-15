@@ -5,5 +5,5 @@ class Unused < Cask
   url 'https://github.com/alehouse/Unused/raw/master/downloads/Unused_1.1.tgz'
   homepage 'https://github.com/jeffhodnett/Unused'
 
-  link 'Unused.app'
+  app 'Unused.app'
 end
