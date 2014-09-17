@@ -1,5 +1,5 @@
 class Iterm2Borderless < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/Nasga/iterm2-borderless/archive/master.zip'
