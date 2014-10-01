@@ -4,6 +4,7 @@ class Stash < Cask
 
   url "https://github.com/alehouse/Stash/raw/master/downloads/Stash_#{version}.tgz"
   homepage 'https://github.com/beelsebob/Stash'
+  license :oss
 
   app 'Stash.app'
 end
