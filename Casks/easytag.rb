@@ -4,6 +4,7 @@ class Easytag < Cask
 
   url "https://github.com/rfw/easytag-mac/releases/download/v#{version}/easytag-v#{version}.dmg"
   homepage 'http://rfw.name/easytag-mac/'
+  license :oss
 
   app 'EasyTAG.app'
 end

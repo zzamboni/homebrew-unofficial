@@ -4,6 +4,7 @@ class Unused < Cask
 
   url "https://github.com/alehouse/Unused/raw/master/downloads/Unused_#{version}.tgz"
   homepage 'https://github.com/jeffhodnett/Unused'
+  license :oss
 
   app 'Unused.app'
 end

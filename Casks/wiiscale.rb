@@ -4,6 +4,7 @@ class Wiiscale < Cask
 
   url "https://github.com/alehouse/wiiscale/raw/master/downloads/WiiScale_#{version}.tgz"
   homepage 'https://github.com/damariei/wiiscale'
+  license :oss
 
   app 'WiiScale.app'
 end

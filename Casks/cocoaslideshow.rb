@@ -4,6 +4,7 @@ class Cocoaslideshow < Cask
 
   url "https://github.com/alehouse/CocoaSlideShow/raw/master/downloads/CocoaSlideShow_#{version}.tgz"
   homepage 'https://github.com/nst/CocoaSlideShow'
+  license :oss
 
   app 'CocoaSlideShow.app'
 end
