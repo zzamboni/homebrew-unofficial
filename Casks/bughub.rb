@@ -4,6 +4,7 @@ class Bughub < Cask
 
   url "https://github.com/alehouse/BugHub/raw/master/downloads/BugHub_#{version}.tgz"
   homepage 'https://github.com/Me1000/BugHub'
+  license :oss
 
   app 'BugHub.app'
 end
