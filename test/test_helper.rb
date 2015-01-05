@@ -9,7 +9,7 @@ end
 homebrew_path = Pathname(`brew --prefix`.chomp)
 homebrew_path = Pathname('/usr/local') unless homebrew_path.exist?
 
-# add cask lib to load path
+# add homebrew-cask lib to load path
 brew_cask_path = homebrew_path.join('Library', 'Taps', 'caskroom', 'homebrew-cask')
 lib_path = brew_cask_path.join('lib')
 $:.push(lib_path)
