@@ -1,9 +1,9 @@
 homebrew-unofficial
 ===================
 
-Casks of unofficial builds for homebrew-cask
+Casks of unofficial, vendorless, or walled builds for homebrew-cask
 
-This repository contains Caskfiles for apps that have user-contributed (unofficial) app bundles, because no official app bundle download source exists. For apps with verified, official download sources, see the [main `homebrew-cask` project](http://www.github.com/caskroom/homebrew-cask)
+This repository contains Caskfiles for apps that have user-contributed (unofficial) app bundles (no official app bundle download source exists), Caskfiles without an official vendor (e.g. forum posts), and Caskfiles whose download binary is both behind a registration wall and served from an unofficial host (and thus difficult or impossible for maintainers to corroborate). For apps with verified, official download sources, see the [main `homebrew-cask` project](http://www.github.com/caskroom/homebrew-cask).
 
 > **IMPORTANT:** By using the Caskfiles in this repository, you are tapping into *untrusted software*! While we try our best to audit Caskfiles and ensure their operation, we cannot offer any guarantee on the software provided.
 
